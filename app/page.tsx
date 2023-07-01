@@ -6,7 +6,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <h1>Hello Word</h1>
-      <Link href="/about">Link to About Page</Link>
+      <p>
+        <Link href="/users">Users</Link>
+      </p>
     </main>
   )
 }
